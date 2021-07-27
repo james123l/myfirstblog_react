@@ -1,0 +1,39 @@
+.header{
+    margin-top: 79px;
+    margin-bottom:11px;
+}
+.headerTitles{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+}
+.headerTitleSm{
+    z-index:100;
+    position: absolute;
+    top:220px;
+    font-size: 20px;
+}
+.headerTitleLg{
+    z-index:100;
+    min-height: 80px;
+    position: absolute;
+    top: 120px;
+    font-size: 80px;
+}
+.headerImg{
+    margin-top:-60px;
+    position: relative;
+    height: 450px;
+    width:100%;
+    margin-top: -80px;
+    /*background-image: url("../../staticpic/home.jpg");*/
+    /*background-color: rgba(234, 188, 128,0.4);*/
+    background: linear-gradient(rgba(234, 188, 128,0.6), rgba(234, 188, 128,0.6)), url("../../staticpic/home.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    /* 不随着页面缩放而缩放 */
+    background-attachment:fixed;
+    background-size: cover;
+    border-bottom: 3px solid rgb(173, 170, 170);
+}

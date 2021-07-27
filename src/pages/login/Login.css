@@ -1,0 +1,68 @@
+.login {
+    font-family: 'Dancing Script', cursive;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255,0.2),
+        rgba(255, 255, 255,0.2)
+    ),
+    url("../../staticpic/login_background.jpg");
+    background-size: cover;
+}
+
+.loginTitle {
+    font-size: 50px;
+}
+
+.loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.loginInput:focus {
+    outline: none;
+}
+
+.loginButton {    
+    font-family: 'Dancing Script', cursive;
+    font-size:16px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    color: rgb(99, 93, 93);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+}
+.loginRegisterButton {
+    font-family: 'Dancing Script', cursive;
+    font-size:16px;
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    background-color: lightcoral;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: rgb(99, 93, 93);
+    border-radius: 10px;
+}

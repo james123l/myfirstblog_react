@@ -1,0 +1,7 @@
+.posts{
+    flex:10;
+    margin-left: 5%;
+    display: flex;
+    /* 在必要的时候拆解成多行 */
+    flex-wrap: wrap;
+}
